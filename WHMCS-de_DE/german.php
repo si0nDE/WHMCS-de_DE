@@ -1,4 +1,12 @@
 <?php
+/**
+ * WHMCS Language File - Translated by Simon Fieber IT-Services
+ * German (de)
+ *
+ * @author     Simon Fieber IT-Services <whmcs-translation@simonfieber.it>
+ * @copyright  Copyright (c) Simon Fieber IT-Services 2014-2018
+ * @link       https://simonfieber.it/
+ */
 
 if (!defined("WHMCS")) die("This file cannot be accessed directly");
 
