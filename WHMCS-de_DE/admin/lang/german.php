@@ -1925,11 +1925,6 @@ $_ADMINLANG['products']['retired'] = "Produkt eingestellt";
 $_ADMINLANG['products']['retireddesc'] = "Aktivieren Sie diese Option, um das Produkt einzustellen. Hier wird das Produkt aus den Drop-Down-Men&uuml;s im Adminbereich verborgen, sofern es nicht bereits zugewiesen ist.";
 $_ADMINLANG['products']['paymenttype'] = "Zahlungsart";
 $_ADMINLANG['products']['disablepaymenttermdesc'] = "Auf -1.00 setzen, um alle der Zahlungsfrist-Optionen zu deaktivieren";
-$_ADMINLANG['products']['proratadatedesc'] = "Enter the day of the month you want to charge on";	# ORIG #
-$_ADMINLANG['products']['chargenextmonth'] = "N&auml;chsten Monat berechnen";
-$_ADMINLANG['products']['chargenextmonthdesc'] = "Enter the day of the month after which point the following month will also be charged for with the first payment";
-$_ADMINLANG['products']['modulename'] = "Modul Name";
-$_ADMINLANG['products']['servergroup'] = "Server Gruppe";
 $_ADMINLANG['products']['allowqty'] = "Mehrere Mengen zulassen";
 $_ADMINLANG['products']['allowqtydesc'] = "Kreuzen Sie dieses K&auml;stchen an, damit Kunden bei der Bestellung angeben k&ouml;nnen, ob sie mehr als einmal diesen Artikel bestellen m&ouml;chten. Dies erfordert keine seperate Konfiguration.";
 $_ADMINLANG['products']['recurringcycleslimit'] = "Wiederholungen limitieren";
@@ -1940,6 +1935,11 @@ $_ADMINLANG['products']['terminationemail'] = "K&uuml;ndigungsbest&auml;tigung";
 $_ADMINLANG['products']['chooseemailtplfixedtermend'] = "W&auml;hlen Sie die E-Mail-Vorlage aus, die gesendet werden soll, wenn die befristete Laufzeit zu Ende ist.";
 $_ADMINLANG['products']['tickboxtoenable'] = "Kreuzen Sie dieses K&auml;stchen an, damit die tagesgenaue Abrechnung aktiviert wird.";
 $_ADMINLANG['products']['proratadate'] = "Datum f&uuml;r die tagesgenaue Abrechnung";
+$_ADMINLANG['products']['proratadatedesc'] = "Geben Sie den Tag des Monats f&uuml;r den Beginn der tagesgenauen Abrechnung ein.";
+$_ADMINLANG['products']['chargenextmonth'] = "Tagesgenaue Abrechnung im nachfolgenden Monat";
+$_ADMINLANG['products']['chargenextmonthdesc'] = "Geben Sie den Tag des Monats ein, nach dem der n&auml;chste Monat mit der ersten Zahlung in Rechnung gestellt wird.";
+$_ADMINLANG['products']['modulename'] = "Modulname";
+$_ADMINLANG['products']['servergroup'] = "Servergruppe";
 $_ADMINLANG['products']['assignedoptiongroups'] = "Assigned Option Groups";	# ORIG #
 $_ADMINLANG['products']['packagesupgrades'] = "Pakete Upgrades";
 $_ADMINLANG['products']['usectrlclickpkgs'] = "Use Ctrl+Click to select multiple packages";	# ORIG #
@@ -2874,15 +2874,15 @@ $_ADMINLANG['general']['storeClientDataSnapshot'] = "Store Client Data Snapshot"
 $_ADMINLANG['general']['storeClientDataSnapshotInfo'] = "Preserve client details upon invoice generation to prevent profile changes for existing invoices";	# ORIG #
 
 # Config Tax
-$_ADMINLANG['taxconfig']['taxrulestitle'] = "Steuer Regeln";
+$_ADMINLANG['taxconfig']['taxrulestitle'] = "Steuerregeln";
 $_ADMINLANG['taxconfig']['delsuretaxrule'] = "Click ok if you are sure you want to delete this tax rule";	# ORIG #
 $_ADMINLANG['taxconfig']['taxrulesconfigheredesc'] = "This is where tax rules are configured. Tax can be either exclusive (added on to prices) or inclusive (prices include it). You are allowed to create two seperate levels of tax rules thus allowing you to charge multiple taxes such as state and country taxes.";	# ORIG #
 $_ADMINLANG['taxconfig']['taxsupportenabled'] = "MwSt. aktiviert";
 $_ADMINLANG['taxconfig']['taxsupportenableddesc'] = "Tick this box to enable tax support";	# ORIG #
 $_ADMINLANG['taxconfig']['taxtype'] = "Steuer Typ";
 $_ADMINLANG['taxconfig']['taxtypeexclusive'] = "Exklusiv";
-$_ADMINLANG['taxconfig']['taxtypeinclusive'] = "Inklusiv";
-$_ADMINLANG['taxconfig']['taxappliesto'] = "Apply Tax To";	# ORIG #
+$_ADMINLANG['taxconfig']['taxtypeinclusive'] = "Inklusive";
+$_ADMINLANG['taxconfig']['taxappliesto'] = "Steuer anwenden, auf...";
 $_ADMINLANG['taxconfig']['taxproducts'] = "Products & Addons are set per item";	# ORIG #
 $_ADMINLANG['taxconfig']['taxdomains'] = "Tax Domains";	# ORIG #
 $_ADMINLANG['taxconfig']['taxbillableitems'] = "Billable Items";	# ORIG #
@@ -3034,7 +3034,7 @@ $_ADMINLANG['stspamcontrol']['addnewsc'] = "Add New Spam Control";	# ORIG #
 $_ADMINLANG['stspamcontrol']['tab1'] = "Blockierter Absender";
 $_ADMINLANG['stspamcontrol']['tab2'] = "Blockierte Betreffs";
 $_ADMINLANG['stspamcontrol']['tab3'] = "Geblockte Ausdr&uuml;cke";
-$_ADMINLANG['stspamcontrol']['typeval'] = "Type / Value";	# ORIG #
+$_ADMINLANG['stspamcontrol']['typeval'] = "Type/Value";	# ORIG #
 
 # Offline CC Processing
 $_ADMINLANG['offlineccp']['title'] = "Offline Credit Card Processing";	# ORIG #
@@ -3055,7 +3055,7 @@ $_ADMINLANG['ticketstatusconfig']['statusdeldesc'] = "The ticket status has now 
 $_ADMINLANG['ticketstatusconfig']['delsureticketstatus'] = "Are you sure you want to delete this ticket status? Doing so will change all tickets assigned to this status to Closed.";	# ORIG #
 $_ADMINLANG['ticketstatusconfig']['includeinactivetickets'] = "Include in Active Tickets";	# ORIG #
 $_ADMINLANG['ticketstatusconfig']['includeinawaitingreply'] = "Include in Awaiting Reply";	# ORIG #
-$_ADMINLANG['ticketstatusconfig']['autoclose'] = "Auto Schliessen?";
+$_ADMINLANG['ticketstatusconfig']['autoclose'] = "Auto Schlie&szlig;en?";
 $_ADMINLANG['ticketstatusconfig']['statuscolor'] = "Status Farbe";
 
 # Config Security Questions
